@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>15-745 Course Project</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+          Cantarell, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+
+      header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 60px 40px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      .subtitle {
+        font-size: 1.2em;
+        opacity: 0.95;
+        margin-bottom: 5px;
+      }
+
+      .course-info {
+        font-size: 0.95em;
+        opacity: 0.85;
+      }
+
+      main {
+        padding: 40px;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        color: #667eea;
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #667eea;
+      }
+
+      p {
+        margin-bottom: 15px;
+        color: #555;
+      }
+
+      .team-members {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+      }
+
+      .member {
+        text-align: center;
+      }
+
+      .member-name {
+        font-weight: 600;
+        color: white;
+        margin-bottom: 5px;
+        font-size: 1.1em;
+      }
+
+      .member-email {
+        font-size: 0.9em;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .links {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 500;
+      }
+
+      .btn:hover {
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+      }
+
+      .milestones {
+        list-style: none;
+      }
+
+      .milestones li {
+        padding: 15px;
+        margin-bottom: 10px;
+        background: #f8f9fa;
+        border-left: 4px solid #667eea;
+        border-radius: 4px;
+      }
+
+      footer {
+        background: #f8f9fa;
+        padding: 20px 40px;
+        text-align: center;
+        color: #666;
+        font-size: 0.9em;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2em;
+        }
+
+        main {
+          padding: 30px 20px;
+        }
+
+        header {
+          padding: 40px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>project name goes here</h1>
+        <div class="subtitle">15-745 Fall 2025</div>
+        <div class="team-members">
+          <div class="member">
+            <div class="member-name">Sun A Cho</div>
+            <div class="member-email">sunac@andrew.cmu.edu</div>
+          </div>
+          <div class="member">
+            <div class="member-name">Yufei Shi</div>
+            <div class="member-email">yshi2@andrew.cmu.edu</div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <h2>Project Overview</h2>
+          <p>
+            project overview goes here
+          </p>
+        </section>
+
+        <section>
+          <h2>Project Resources</h2>
+          <div class="links">
+            <a href="proposal.pdf" class="btn">Project Proposal</a>
+          </div>
+        </section>
+
+        <section>
+          <h2>Timeline</h2>
+          <ul class="milestones">
+            <li>
+              <strong>November 25, 2025 (Milestone):</strong> todo: replace me with milestone description
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>
